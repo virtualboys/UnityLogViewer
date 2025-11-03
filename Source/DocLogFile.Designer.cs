@@ -273,7 +273,7 @@
             this.ToolStripMenuItem4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
             this.ToolStripMenuItem4.Name = "ToolStripMenuItem4";
             this.ToolStripMenuItem4.Size = new System.Drawing.Size(184, 22);
-            this.ToolStripMenuItem4.Text = "匹配大小写（正则）";
+            this.ToolStripMenuItem4.Text = "Matching case（Regular expressions）";
             this.ToolStripMenuItem4.Click += new System.EventHandler(this.ToolStripMenuItem4_Click);
             // 
             // ToolStripMenuItem3
@@ -282,7 +282,7 @@
             this.ToolStripMenuItem3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
             this.ToolStripMenuItem3.Name = "ToolStripMenuItem3";
             this.ToolStripMenuItem3.Size = new System.Drawing.Size(184, 22);
-            this.ToolStripMenuItem3.Text = "忽略大小写（正则）";
+            this.ToolStripMenuItem3.Text = "Ignore case（Regular expressions）";
             this.ToolStripMenuItem3.Click += new System.EventHandler(this.ToolStripMenuItem3_Click);
             // 
             // ToolStripMenuItem2
@@ -302,7 +302,7 @@
             this.ToolStripMenuItem1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
             this.ToolStripMenuItem1.Name = "ToolStripMenuItem1";
             this.ToolStripMenuItem1.Size = new System.Drawing.Size(184, 22);
-            this.ToolStripMenuItem1.Text = "忽略大小写";
+            this.ToolStripMenuItem1.Text = "Matching case";
             this.ToolStripMenuItem1.Click += new System.EventHandler(this.ToolStripMenuItem1_Click);
             // 
             // toolStripDropDownButtonHistory
@@ -320,7 +320,7 @@
             this.toolStripDropDownButtonHistory.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripDropDownButtonHistory.Name = "toolStripDropDownButtonHistory";
             this.toolStripDropDownButtonHistory.Size = new System.Drawing.Size(29, 22);
-            this.toolStripDropDownButtonHistory.Text = "搜索模式";
+            this.toolStripDropDownButtonHistory.Text = "Search mode";
             // 
             // toolStripButtonViewMatch
             // 
@@ -335,8 +335,8 @@
             this.toolStripButtonViewMatch.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButtonViewMatch.Name = "toolStripButtonViewMatch";
             this.toolStripButtonViewMatch.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButtonViewMatch.Text = "只显示搜索";
-            this.toolStripButtonViewMatch.ToolTipText = "只显示搜索(F12)";
+            this.toolStripButtonViewMatch.Text = "Show only search results";
+            this.toolStripButtonViewMatch.ToolTipText = "Show only search results(F12)";
             this.toolStripButtonViewMatch.CheckedChanged += new System.EventHandler(this.toolStripButtonViewMatch_CheckedChanged);
             // 
             // toolStripTab
@@ -378,7 +378,7 @@
             this.toolStripButtonCancle.Name = "toolStripButtonCancle";
             this.toolStripButtonCancle.Size = new System.Drawing.Size(23, 22);
             this.toolStripButtonCancle.Text = "X";
-            this.toolStripButtonCancle.ToolTipText = "清除搜索";
+            this.toolStripButtonCancle.ToolTipText = "Clear search";
             this.toolStripButtonCancle.Click += new System.EventHandler(this.toolStripButtonCancle_Click);
             // 
             // toolStripButtonErrorNext
@@ -392,8 +392,8 @@
             this.toolStripButtonErrorNext.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButtonErrorNext.Name = "toolStripButtonErrorNext";
             this.toolStripButtonErrorNext.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButtonErrorNext.Text = "下一个错误日志";
-            this.toolStripButtonErrorNext.ToolTipText = "下一个错误日志(F8)";
+            this.toolStripButtonErrorNext.Text = "Next error log";
+            this.toolStripButtonErrorNext.ToolTipText = "Next error log(F8)";
             this.toolStripButtonErrorNext.Click += new System.EventHandler(this.toolStripButtonErrorNext_Click);
             // 
             // toolStripButtonErrorPrev
@@ -407,8 +407,8 @@
             this.toolStripButtonErrorPrev.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButtonErrorPrev.Name = "toolStripButtonErrorPrev";
             this.toolStripButtonErrorPrev.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButtonErrorPrev.Text = "上一个错误日志";
-            this.toolStripButtonErrorPrev.ToolTipText = "上一个错误日志(F7)";
+            this.toolStripButtonErrorPrev.Text = "Previous error log";
+            this.toolStripButtonErrorPrev.ToolTipText = "Previous error log(F7)";
             this.toolStripButtonErrorPrev.Click += new System.EventHandler(this.toolStripButtonErrorPrev_Click);
             // 
             // toolStripSeparator1
@@ -429,8 +429,8 @@
             this.toolStripButtonSearchPrev.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButtonSearchPrev.Name = "toolStripButtonSearchPrev";
             this.toolStripButtonSearchPrev.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButtonSearchPrev.Text = "上一个搜索日志";
-            this.toolStripButtonSearchPrev.ToolTipText = "上一个搜索日志(Shitf+F3)";
+            this.toolStripButtonSearchPrev.Text = "Previous search log";
+            this.toolStripButtonSearchPrev.ToolTipText = "Previous search log(Shitf+F3)";
             this.toolStripButtonSearchPrev.Click += new System.EventHandler(this.toolStripButtonSearchPrev_Click);
             // 
             // toolStripButtonSearchNext
@@ -443,8 +443,8 @@
             this.toolStripButtonSearchNext.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButtonSearchNext.Name = "toolStripButtonSearchNext";
             this.toolStripButtonSearchNext.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButtonSearchNext.Text = "下一个搜索日志";
-            this.toolStripButtonSearchNext.ToolTipText = "下一个搜索日志(F3)";
+            this.toolStripButtonSearchNext.Text = "Next search log";
+            this.toolStripButtonSearchNext.ToolTipText = "Next search log(F3)";
             this.toolStripButtonSearchNext.Click += new System.EventHandler(this.toolStripButtonSearchNext_Click);
             // 
             // toolStripButtonCustom
@@ -458,7 +458,7 @@
             this.toolStripButtonCustom.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButtonCustom.Name = "toolStripButtonCustom";
             this.toolStripButtonCustom.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButtonCustom.Text = "自定义过滤";
+            this.toolStripButtonCustom.Text = "Custom Filtering";
             this.toolStripButtonCustom.Click += new System.EventHandler(this.toolStripButtonCustom_Click);
             // 
             // darkToolStripAdb
@@ -499,7 +499,7 @@
             this.toolStripDropDownButtonAdbCon.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripDropDownButtonAdbCon.Name = "toolStripDropDownButtonAdbCon";
             this.toolStripDropDownButtonAdbCon.Size = new System.Drawing.Size(85, 22);
-            this.toolStripDropDownButtonAdbCon.Text = "连接本机";
+            this.toolStripDropDownButtonAdbCon.Text = "Connect to local machine";
             // 
             // toolStripMenuItemAdbConLocal
             // 
@@ -507,7 +507,7 @@
             this.toolStripMenuItemAdbConLocal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
             this.toolStripMenuItemAdbConLocal.Name = "toolStripMenuItemAdbConLocal";
             this.toolStripMenuItemAdbConLocal.Size = new System.Drawing.Size(174, 22);
-            this.toolStripMenuItemAdbConLocal.Text = "连接本机";
+            this.toolStripMenuItemAdbConLocal.Text = "Connect to local machine";
             this.toolStripMenuItemAdbConLocal.Click += new System.EventHandler(this.toolStripMenuItemAdbConLocal_Click);
             // 
             // toolStripMenuItemAdbConMu
@@ -516,7 +516,7 @@
             this.toolStripMenuItemAdbConMu.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
             this.toolStripMenuItemAdbConMu.Name = "toolStripMenuItemAdbConMu";
             this.toolStripMenuItemAdbConMu.Size = new System.Drawing.Size(174, 22);
-            this.toolStripMenuItemAdbConMu.Text = "连接MuMu模拟器";
+            this.toolStripMenuItemAdbConMu.Text = "Connect to MuMu emulator";
             this.toolStripMenuItemAdbConMu.Click += new System.EventHandler(this.toolStripMenuItemAdbConMu_Click);
             // 
             // toolStripMenuItemAdbConYe
@@ -525,7 +525,7 @@
             this.toolStripMenuItemAdbConYe.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
             this.toolStripMenuItemAdbConYe.Name = "toolStripMenuItemAdbConYe";
             this.toolStripMenuItemAdbConYe.Size = new System.Drawing.Size(174, 22);
-            this.toolStripMenuItemAdbConYe.Text = "连接夜神模拟器";
+            this.toolStripMenuItemAdbConYe.Text = "Connect to NoxPlayer";
             this.toolStripMenuItemAdbConYe.Click += new System.EventHandler(this.toolStripMenuItemAdbConYe_Click);
             // 
             // toolStripMenuItemAdbConXiao
@@ -534,7 +534,7 @@
             this.toolStripMenuItemAdbConXiao.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
             this.toolStripMenuItemAdbConXiao.Name = "toolStripMenuItemAdbConXiao";
             this.toolStripMenuItemAdbConXiao.Size = new System.Drawing.Size(174, 22);
-            this.toolStripMenuItemAdbConXiao.Text = "连接逍遥模拟器";
+            this.toolStripMenuItemAdbConXiao.Text = "Connect to NoxPlayer";
             this.toolStripMenuItemAdbConXiao.Click += new System.EventHandler(this.toolStripMenuItemAdbConXiao_Click);
             // 
             // toolStripSeparator2
@@ -564,7 +564,7 @@
             this.toolStripButtonAdbRefresh.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButtonAdbRefresh.Name = "toolStripButtonAdbRefresh";
             this.toolStripButtonAdbRefresh.Size = new System.Drawing.Size(100, 22);
-            this.toolStripButtonAdbRefresh.Text = "刷新Adb设备";
+            this.toolStripButtonAdbRefresh.Text = "Refresh ADB device";
             this.toolStripButtonAdbRefresh.Click += new System.EventHandler(this.toolStripButtonAdbRefresh_Click);
             // 
             // toolStripDropDownButtonAdbDevices
@@ -576,7 +576,7 @@
             this.toolStripDropDownButtonAdbDevices.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripDropDownButtonAdbDevices.Name = "toolStripDropDownButtonAdbDevices";
             this.toolStripDropDownButtonAdbDevices.Size = new System.Drawing.Size(73, 22);
-            this.toolStripDropDownButtonAdbDevices.Text = "空设备";
+            this.toolStripDropDownButtonAdbDevices.Text = "Empty equipment";
             // 
             // toolStripButtonPicAdbLog
             // 
@@ -588,7 +588,7 @@
             this.toolStripButtonPicAdbLog.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButtonPicAdbLog.Name = "toolStripButtonPicAdbLog";
             this.toolStripButtonPicAdbLog.Size = new System.Drawing.Size(52, 22);
-            this.toolStripButtonPicAdbLog.Text = "截屏";
+            this.toolStripButtonPicAdbLog.Text = "screenshot";
             this.toolStripButtonPicAdbLog.Click += new System.EventHandler(this.toolStripButtonPicAdbLog_Click);
             // 
             // toolStripButtonClearAdbLog
@@ -601,7 +601,7 @@
             this.toolStripButtonClearAdbLog.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButtonClearAdbLog.Name = "toolStripButtonClearAdbLog";
             this.toolStripButtonClearAdbLog.Size = new System.Drawing.Size(76, 22);
-            this.toolStripButtonClearAdbLog.Text = "清除日志";
+            this.toolStripButtonClearAdbLog.Text = "Clear logs";
             this.toolStripButtonClearAdbLog.Click += new System.EventHandler(this.toolStripButtonClearAdbLog_Click);
             // 
             // toolStripButtonResumeAdbLog
@@ -614,7 +614,7 @@
             this.toolStripButtonResumeAdbLog.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButtonResumeAdbLog.Name = "toolStripButtonResumeAdbLog";
             this.toolStripButtonResumeAdbLog.Size = new System.Drawing.Size(100, 22);
-            this.toolStripButtonResumeAdbLog.Text = "继续接收日志";
+            this.toolStripButtonResumeAdbLog.Text = "Continue receiving logs";
             this.toolStripButtonResumeAdbLog.Click += new System.EventHandler(this.toolStripButtonResumeAdbLog_Click);
             // 
             // toolStripButtonPauseAdbLog
@@ -627,7 +627,7 @@
             this.toolStripButtonPauseAdbLog.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButtonPauseAdbLog.Name = "toolStripButtonPauseAdbLog";
             this.toolStripButtonPauseAdbLog.Size = new System.Drawing.Size(100, 22);
-            this.toolStripButtonPauseAdbLog.Text = "暂停接收日志";
+            this.toolStripButtonPauseAdbLog.Text = "Pause log reception";
             this.toolStripButtonPauseAdbLog.Click += new System.EventHandler(this.toolStripButtonPauseAdbLog_Click);
             // 
             // darkToolStripUdp
@@ -665,7 +665,7 @@
             this.toolStripButtonPicUdpLog.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButtonPicUdpLog.Name = "toolStripButtonPicUdpLog";
             this.toolStripButtonPicUdpLog.Size = new System.Drawing.Size(52, 22);
-            this.toolStripButtonPicUdpLog.Text = "截屏";
+            this.toolStripButtonPicUdpLog.Text = "screenshot";
             this.toolStripButtonPicUdpLog.Click += new System.EventHandler(this.toolStripButtonPicUdpLog_Click);
             // 
             // toolStripButtonClearUdpLog
@@ -678,7 +678,7 @@
             this.toolStripButtonClearUdpLog.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButtonClearUdpLog.Name = "toolStripButtonClearUdpLog";
             this.toolStripButtonClearUdpLog.Size = new System.Drawing.Size(76, 22);
-            this.toolStripButtonClearUdpLog.Text = "清除日志";
+            this.toolStripButtonClearUdpLog.Text = "Clear logs";
             this.toolStripButtonClearUdpLog.Click += new System.EventHandler(this.toolStripButtonClearUdpLog_Click);
             // 
             // toolStripButtonResumeUdpLog
@@ -691,7 +691,7 @@
             this.toolStripButtonResumeUdpLog.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButtonResumeUdpLog.Name = "toolStripButtonResumeUdpLog";
             this.toolStripButtonResumeUdpLog.Size = new System.Drawing.Size(100, 22);
-            this.toolStripButtonResumeUdpLog.Text = "继续接收日志";
+            this.toolStripButtonResumeUdpLog.Text = "Continue receiving logs";
             this.toolStripButtonResumeUdpLog.Click += new System.EventHandler(this.toolStripButtonResumeUdpLog_Click);
             // 
             // toolStripButtonPauseUdpLog
@@ -704,7 +704,7 @@
             this.toolStripButtonPauseUdpLog.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButtonPauseUdpLog.Name = "toolStripButtonPauseUdpLog";
             this.toolStripButtonPauseUdpLog.Size = new System.Drawing.Size(100, 22);
-            this.toolStripButtonPauseUdpLog.Text = "暂停接收日志";
+            this.toolStripButtonPauseUdpLog.Text = "Pause log reception";
             this.toolStripButtonPauseUdpLog.Click += new System.EventHandler(this.toolStripButtonPauseUdpLog_Click);
             // 
             // toolStripLabelUdpConTip
@@ -714,7 +714,7 @@
             this.toolStripLabelUdpConTip.Image = ((System.Drawing.Image)(resources.GetObject("toolStripLabelUdpConTip.Image")));
             this.toolStripLabelUdpConTip.Name = "toolStripLabelUdpConTip";
             this.toolStripLabelUdpConTip.Size = new System.Drawing.Size(80, 22);
-            this.toolStripLabelUdpConTip.Text = "目标地址";
+            this.toolStripLabelUdpConTip.Text = "Target address";
             // 
             // toolStripTextBoxEndPoint
             // 
@@ -735,7 +735,7 @@
             this.toolStripButtonConEndPoint.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButtonConEndPoint.Name = "toolStripButtonConEndPoint";
             this.toolStripButtonConEndPoint.Size = new System.Drawing.Size(52, 22);
-            this.toolStripButtonConEndPoint.Text = "连接";
+            this.toolStripButtonConEndPoint.Text = "connect";
             this.toolStripButtonConEndPoint.Click += new System.EventHandler(this.toolStripButtonConEndPoint_Click);
             // 
             // toolStripSeparator3
@@ -765,7 +765,7 @@
             this.toolStripLabelUdpPm.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
             this.toolStripLabelUdpPm.Name = "toolStripLabelUdpPm";
             this.toolStripLabelUdpPm.Size = new System.Drawing.Size(32, 22);
-            this.toolStripLabelUdpPm.Text = "命令";
+            this.toolStripLabelUdpPm.Text = "Order";
             // 
             // DocLogFile
             // 

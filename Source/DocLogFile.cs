@@ -106,7 +106,7 @@ namespace LogViewer
             {
                 ClearAdbDevicesList();
                 DisconnectAdbDevice();
-                GetToolStripStatusLabel().Text = "查找设备中...";
+                GetToolStripStatusLabel().Text = "In the search for devices...";
 
                 adb = new AdbClient(this);
                 adb.GetDevices();
@@ -279,7 +279,7 @@ namespace LogViewer
         {
             if (string.IsNullOrEmpty(this.toolStripTextBoxSearch.Text))
             {
-                this.toolStripTextBoxSearch.Text = "键入搜索内容后回车";
+                this.toolStripTextBoxSearch.Text = "Type your search terms and press Enter.\r\n";
                 this.toolStripTextBoxSearch.ForeColor = Color.Gray;
                 searchHasText = false;
             }
@@ -530,7 +530,7 @@ namespace LogViewer
                 item.Click += new System.EventHandler(this.toolStripButtonAdbChooseDevice_Click);
                 this.toolStripDropDownButtonAdbDevices.DropDownItems.Add(item);
             }
-            GetToolStripStatusLabel().Text = "发现设备数量： " + adb.DevicesNameList.Count;
+            GetToolStripStatusLabel().Text = "Number of devices discovered： " + adb.DevicesNameList.Count;
 
             if (adb.DevicesNameList.Count > 0)
             {
@@ -540,7 +540,7 @@ namespace LogViewer
 
         private void ClearAdbDevicesList()
         {
-            this.toolStripDropDownButtonAdbDevices.Text = "空设备";
+            this.toolStripDropDownButtonAdbDevices.Text = "Empty equipment";
             this.toolStripDropDownButtonAdbDevices.DropDownItems.Clear();
         }
 
@@ -549,13 +549,13 @@ namespace LogViewer
             adb.IsPausing = false;
             DisconnectAdbDevice();
             this.toolStripDropDownButtonAdbDevices.Text = adb.DevicesNameList[idx];
-            GetToolStripStatusLabel().Text = "尝试连接设备： " + this.toolStripDropDownButtonAdbDevices.Text;
+            GetToolStripStatusLabel().Text = "Try connecting the device： " + this.toolStripDropDownButtonAdbDevices.Text;
             adb.ChooseDevice(idx);
         }
 
         public void DisconnectAdbDevice()
         {
-            GetToolStripStatusLabel().Text = "设备断开连接 ";
+            GetToolStripStatusLabel().Text = "Device disconnected ";
             this.toolStripButtonPauseAdbLog.Visible = false;
             this.toolStripButtonResumeAdbLog.Visible = false;
             this.toolStripButtonClearAdbLog.Visible = false;
@@ -569,7 +569,7 @@ namespace LogViewer
             this.toolStripButtonResumeAdbLog.Visible = false;
             this.toolStripButtonClearAdbLog.Visible = true;
             this.toolStripButtonPicAdbLog.Visible = true;
-            GetToolStripStatusLabel().Text = "连接设备中： " + this.toolStripDropDownButtonAdbDevices.Text;
+            GetToolStripStatusLabel().Text = "Connecting devices： " + this.toolStripDropDownButtonAdbDevices.Text;
         }
 
         public void SetAdbPicEnable(bool isEnabled)
@@ -606,7 +606,7 @@ namespace LogViewer
 
         private void toolStripButtonAdbRefresh_Click(object sender, EventArgs e)
         {
-            GetToolStripStatusLabel().Text = "刷新设备中...";
+            GetToolStripStatusLabel().Text = "Refreshing the device...";
             adb.GetDevices();
         }
 
@@ -668,7 +668,7 @@ namespace LogViewer
 
         public void DisconnectUdpDevice()
         {
-            GetToolStripStatusLabel().Text = "目标断开连接 ";
+            GetToolStripStatusLabel().Text = "Target disconnected ";
             this.toolStripButtonPauseUdpLog.Visible = false;
             this.toolStripButtonResumeUdpLog.Visible = false;
             this.toolStripButtonClearUdpLog.Visible = false;
@@ -686,7 +686,7 @@ namespace LogViewer
             this.toolStripLabelUdpPm.Visible = true;
             this.toolStripTextBoxUdpPm.Visible = true;
             this.toolStripButtonPicUdpLog.Visible = true;
-            GetToolStripStatusLabel().Text = "连接目标中： " + this.toolStripTextBoxEndPoint.Text;
+            GetToolStripStatusLabel().Text = "Connecting the target： " + this.toolStripTextBoxEndPoint.Text;
         }
 
         public void SetUdpPicEnable(bool isEnabled)

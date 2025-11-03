@@ -73,7 +73,7 @@
             this.darkSectionPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.darkSectionPanel2.Location = new System.Drawing.Point(0, 0);
             this.darkSectionPanel2.Name = "darkSectionPanel2";
-            this.darkSectionPanel2.SectionHeader = "过滤列表";
+            this.darkSectionPanel2.SectionHeader = "Filter list";
             this.darkSectionPanel2.Size = new System.Drawing.Size(492, 246);
             this.darkSectionPanel2.TabIndex = 0;
             // 
@@ -103,7 +103,7 @@
             this.ToolStripMenuItemDel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
             this.ToolStripMenuItemDel.Name = "ToolStripMenuItemDel";
             this.ToolStripMenuItemDel.Size = new System.Drawing.Size(100, 22);
-            this.ToolStripMenuItemDel.Text = "删除";
+            this.ToolStripMenuItemDel.Text = "delete";
             this.ToolStripMenuItemDel.Click += new System.EventHandler(this.ToolStripMenuItemDel_Click);
             // 
             // panel2
@@ -123,7 +123,7 @@
             this.darkSectionPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.darkSectionPanel1.Location = new System.Drawing.Point(0, 0);
             this.darkSectionPanel1.Name = "darkSectionPanel1";
-            this.darkSectionPanel1.SectionHeader = "新增过滤";
+            this.darkSectionPanel1.SectionHeader = "Add filter";
             this.darkSectionPanel1.Size = new System.Drawing.Size(492, 83);
             this.darkSectionPanel1.TabIndex = 0;
             // 
@@ -135,7 +135,7 @@
             this.darkButtonAdd.Padding = new System.Windows.Forms.Padding(5);
             this.darkButtonAdd.Size = new System.Drawing.Size(75, 39);
             this.darkButtonAdd.TabIndex = 2;
-            this.darkButtonAdd.Text = "新增";
+            this.darkButtonAdd.Text = "New";
             this.darkButtonAdd.Click += new System.EventHandler(this.darkButtonAdd_Click);
             // 
             // darkComboBoxAdd
@@ -143,10 +143,10 @@
             this.darkComboBoxAdd.DisplayMember = "213123";
             this.darkComboBoxAdd.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
             this.darkComboBoxAdd.Items.AddRange(new object[] {
-            "忽略大小写",
-            "匹配大小写",
-            "忽略大小写（正则）",
-            "匹配大小写（正则）"});
+            "Ignore case",
+            "Matching case",
+            "Ignore case（Regular expressions）",
+            "Matching case（Regular expressions）"});
             this.darkComboBoxAdd.Location = new System.Drawing.Point(227, 41);
             this.darkComboBoxAdd.Name = "darkComboBoxAdd";
             this.darkComboBoxAdd.Size = new System.Drawing.Size(148, 26);
@@ -178,7 +178,7 @@
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "自定义过滤";
+            this.Text = "Custom Filtering";
             this.Load += new System.EventHandler(this.FormCustomTerms_Load);
             this.Controls.SetChildIndex(this.panel1, 0);
             this.panel1.ResumeLayout(false);

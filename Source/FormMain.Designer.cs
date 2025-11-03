@@ -97,7 +97,7 @@
             this.menuFile.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
             this.menuFile.Name = "menuFile";
             this.menuFile.Size = new System.Drawing.Size(58, 22);
-            this.menuFile.Text = "文件(&F)";
+            this.menuFile.Text = "document(&F)";
             // 
             // menuFileOpenNewTab
             // 
@@ -105,7 +105,7 @@
             this.menuFileOpenNewTab.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
             this.menuFileOpenNewTab.Name = "menuFileOpenNewTab";
             this.menuFileOpenNewTab.Size = new System.Drawing.Size(198, 22);
-            this.menuFileOpenNewTab.Text = "打开(&O)";
+            this.menuFileOpenNewTab.Text = "Open(&O)";
             this.menuFileOpenNewTab.Click += new System.EventHandler(this.menuFileOpenNewTab_Click);
             // 
             // menuFileOpenUnityLogTab
@@ -114,7 +114,7 @@
             this.menuFileOpenUnityLogTab.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
             this.menuFileOpenUnityLogTab.Name = "menuFileOpenUnityLogTab";
             this.menuFileOpenUnityLogTab.Size = new System.Drawing.Size(198, 22);
-            this.menuFileOpenUnityLogTab.Text = "打开 Unity Editor &Log";
+            this.menuFileOpenUnityLogTab.Text = "Open Unity Editor &Log";
             this.menuFileOpenUnityLogTab.Click += new System.EventHandler(this.menuFileOpenUnityLogTab_Click);
             // 
             // menuFileSep1
@@ -128,7 +128,7 @@
             this.menuFileClose.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
             this.menuFileClose.Name = "menuFileClose";
             this.menuFileClose.Size = new System.Drawing.Size(198, 22);
-            this.menuFileClose.Text = "关闭";
+            this.menuFileClose.Text = "closure";
             this.menuFileClose.Click += new System.EventHandler(this.menuFileClose_Click);
             // 
             // toolStripMenuItem3
@@ -142,7 +142,7 @@
             this.menuFileExit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
             this.menuFileExit.Name = "menuFileExit";
             this.menuFileExit.Size = new System.Drawing.Size(198, 22);
-            this.menuFileExit.Text = "退出(&X)";
+            this.menuFileExit.Text = "quit(&X)";
             this.menuFileExit.Click += new System.EventHandler(this.menuFileExit_Click);
             // 
             // menuTools
@@ -154,7 +154,7 @@
             this.menuTools.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
             this.menuTools.Name = "menuTools";
             this.menuTools.Size = new System.Drawing.Size(60, 22);
-            this.menuTools.Text = "远端(&R)";
+            this.menuTools.Text = "remote(&R)";
             // 
             // menuAdbLogcat
             // 
@@ -162,7 +162,7 @@
             this.menuAdbLogcat.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
             this.menuAdbLogcat.Name = "menuAdbLogcat";
             this.menuAdbLogcat.Size = new System.Drawing.Size(180, 22);
-            this.menuAdbLogcat.Text = "ADB Unity 日志";
+            this.menuAdbLogcat.Text = "ADB Unity log";
             this.menuAdbLogcat.Click += new System.EventHandler(this.menuAdbLogcat_Click);
             // 
             // menuHelp
@@ -175,7 +175,7 @@
             this.menuHelp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
             this.menuHelp.Name = "menuHelp";
             this.menuHelp.Size = new System.Drawing.Size(61, 22);
-            this.menuHelp.Text = "帮助(&H)";
+            this.menuHelp.Text = "help(&H)";
             // 
             // menuHelpHelp
             // 
@@ -183,7 +183,7 @@
             this.menuHelpHelp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
             this.menuHelpHelp.Name = "menuHelpHelp";
             this.menuHelpHelp.Size = new System.Drawing.Size(140, 22);
-            this.menuHelpHelp.Text = "查看帮助(&V)";
+            this.menuHelpHelp.Text = "View help(&V)";
             this.menuHelpHelp.Click += new System.EventHandler(this.menuHelpHelp_Click);
             // 
             // menuHelpSep1
@@ -197,7 +197,7 @@
             this.menuHelpAbout.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
             this.menuHelpAbout.Name = "menuHelpAbout";
             this.menuHelpAbout.Size = new System.Drawing.Size(140, 22);
-            this.menuHelpAbout.Text = "关于(&A)";
+            this.menuHelpAbout.Text = "about(&A)";
             this.menuHelpAbout.Click += new System.EventHandler(this.menuHelpAbout_Click);
             // 
             // panelMain
@@ -247,14 +247,14 @@
             this.contextMenuFilter.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
             this.contextMenuFilter.Name = "contextMenuFilter";
             this.contextMenuFilter.Size = new System.Drawing.Size(124, 22);
-            this.contextMenuFilter.Text = "过滤显示";
+            this.contextMenuFilter.Text = "Filtered display";
             // 
             // contextMenuFilterShowMatched
             // 
             this.contextMenuFilterShowMatched.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
             this.contextMenuFilterShowMatched.Name = "contextMenuFilterShowMatched";
             this.contextMenuFilterShowMatched.Size = new System.Drawing.Size(136, 22);
-            this.contextMenuFilterShowMatched.Text = "只显示搜索";
+            this.contextMenuFilterShowMatched.Text = "Show only search results";
             this.contextMenuFilterShowMatched.Click += new System.EventHandler(this.contextMenuFilterShowMatched_Click);
             // 
             // contextMenuFilterClear
@@ -262,7 +262,7 @@
             this.contextMenuFilterClear.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
             this.contextMenuFilterClear.Name = "contextMenuFilterClear";
             this.contextMenuFilterClear.Size = new System.Drawing.Size(136, 22);
-            this.contextMenuFilterClear.Text = "显示所有";
+            this.contextMenuFilterClear.Text = "Show all";
             this.contextMenuFilterClear.Click += new System.EventHandler(this.contextMenuFilterClear_Click);
             // 
             // contextMenuSep1
@@ -281,7 +281,7 @@
             this.contextMenuSearch.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
             this.contextMenuSearch.Name = "contextMenuSearch";
             this.contextMenuSearch.Size = new System.Drawing.Size(124, 22);
-            this.contextMenuSearch.Text = "搜索颜色";
+            this.contextMenuSearch.Text = "Search color";
             // 
             // ToolStripMenuItemMatchColor
             // 
@@ -289,7 +289,7 @@
             this.ToolStripMenuItemMatchColor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
             this.ToolStripMenuItemMatchColor.Name = "ToolStripMenuItemMatchColor";
             this.ToolStripMenuItemMatchColor.Size = new System.Drawing.Size(124, 22);
-            this.ToolStripMenuItemMatchColor.Text = "匹配颜色";
+            this.ToolStripMenuItemMatchColor.Text = "Match colors";
             this.ToolStripMenuItemMatchColor.Click += new System.EventHandler(this.ToolStripMenuItemMatchColor_Click);
             // 
             // contextMenuSep2
@@ -309,14 +309,14 @@
             this.contextMenuExport.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
             this.contextMenuExport.Name = "contextMenuExport";
             this.contextMenuExport.Size = new System.Drawing.Size(124, 22);
-            this.contextMenuExport.Text = "导出内容";
+            this.contextMenuExport.Text = "Export content";
             // 
             // contextMenuExportAll
             // 
             this.contextMenuExportAll.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
             this.contextMenuExportAll.Name = "contextMenuExportAll";
             this.contextMenuExportAll.Size = new System.Drawing.Size(112, 22);
-            this.contextMenuExportAll.Text = "所有";
+            this.contextMenuExportAll.Text = "all";
             this.contextMenuExportAll.Click += new System.EventHandler(this.contextMenuExportAll_Click);
             // 
             // contextMenuExportSelected
@@ -324,7 +324,7 @@
             this.contextMenuExportSelected.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
             this.contextMenuExportSelected.Name = "contextMenuExportSelected";
             this.contextMenuExportSelected.Size = new System.Drawing.Size(112, 22);
-            this.contextMenuExportSelected.Text = "选择项";
+            this.contextMenuExportSelected.Text = "Options";
             this.contextMenuExportSelected.Click += new System.EventHandler(this.contextMenuExportSelected_Click);
             // 
             // contextMenuSep3
@@ -341,7 +341,7 @@
             this.contextMenuCopy.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
             this.contextMenuCopy.Name = "contextMenuCopy";
             this.contextMenuCopy.Size = new System.Drawing.Size(124, 22);
-            this.contextMenuCopy.Text = "复制内容";
+            this.contextMenuCopy.Text = "Copy content";
             this.contextMenuCopy.Click += new System.EventHandler(this.contextMenuCopy_Click);
             // 
             // toolStripMenuItem5
@@ -362,14 +362,14 @@
             this.contextLines.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
             this.contextLines.Name = "contextLines";
             this.contextLines.Size = new System.Drawing.Size(124, 22);
-            this.contextLines.Text = "行定位";
+            this.contextLines.Text = "Line positioning";
             // 
             // contextLinesGoToLine
             // 
             this.contextLinesGoToLine.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
             this.contextLinesGoToLine.Name = "contextLinesGoToLine";
             this.contextLinesGoToLine.Size = new System.Drawing.Size(124, 22);
-            this.contextLinesGoToLine.Text = "跳转行";
+            this.contextLinesGoToLine.Text = "Jump line";
             this.contextLinesGoToLine.Click += new System.EventHandler(this.contextLinesGoToLine_Click);
             // 
             // contextLinesGoToFirstLine
@@ -377,7 +377,7 @@
             this.contextLinesGoToFirstLine.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
             this.contextLinesGoToFirstLine.Name = "contextLinesGoToFirstLine";
             this.contextLinesGoToFirstLine.Size = new System.Drawing.Size(124, 22);
-            this.contextLinesGoToFirstLine.Text = "跳转首行";
+            this.contextLinesGoToFirstLine.Text = "Jump to the first line";
             this.contextLinesGoToFirstLine.Click += new System.EventHandler(this.contextLinesGoToFirstLine_Click);
             // 
             // contextLinesGoToLastLine
@@ -385,7 +385,7 @@
             this.contextLinesGoToLastLine.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
             this.contextLinesGoToLastLine.Name = "contextLinesGoToLastLine";
             this.contextLinesGoToLastLine.Size = new System.Drawing.Size(124, 22);
-            this.contextLinesGoToLastLine.Text = "跳转尾行";
+            this.contextLinesGoToLastLine.Text = "Jump to tail";
             this.contextLinesGoToLastLine.Click += new System.EventHandler(this.contextLinesGoToLastLine_Click);
             // 
             // menuUdpLogcat

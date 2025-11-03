@@ -11,9 +11,9 @@ namespace LogViewer.ControlEx
         {
             base.OnLoad(e);
             AutoScaleMode = AutoScaleMode.Dpi;
-            btnOk.Text = "确定";
+            btnOk.Text = "Sure";
             btnOk.AutoSize = true;
-            btnCancel.Text = "取消";
+            btnCancel.Text = "Cancel";
             btnCancel.AutoSize = true;
 
             var pnl = btnOk.Parent.Parent;
@@ -36,9 +36,9 @@ namespace LogViewer.ControlEx
         {
             base.OnLoad(e);
             AutoScaleMode = AutoScaleMode.Dpi;
-            btnOk.Text = "确定";
+            btnOk.Text = "Sure";
             btnOk.AutoSize = true;
-            btnCancel.Text = "取消";
+            btnCancel.Text = "Cancel";
             btnCancel.AutoSize = true;
 
             var pnl = btnOk.Parent.Parent;

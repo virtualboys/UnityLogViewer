@@ -741,9 +741,9 @@ namespace LogViewer
             OLVColumn colLineNumber = ((OLVColumn)(new OLVColumn()));
             OLVColumn colText = ((OLVColumn)(new OLVColumn()));
 
-            colLineNumber.Text = "行号";
+            colLineNumber.Text = "line number";
             colLineNumber.Width = 58;
-            colText.Text = "日志";
+            colText.Text = "log";
             colText.FillsFreeSpace = true;
 
             colLineNumber.AspectGetter = delegate (object x)

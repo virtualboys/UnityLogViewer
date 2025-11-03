@@ -49,7 +49,7 @@ namespace LogViewer
             this.btnClose.Padding = new System.Windows.Forms.Padding(5);
             this.btnClose.Size = new System.Drawing.Size(75, 39);
             this.btnClose.TabIndex = 23;
-            this.btnClose.Text = "关闭";
+            this.btnClose.Text = "closure";
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // lblVer
@@ -81,7 +81,7 @@ namespace LogViewer
             this.darkLabel1.Name = "darkLabel1";
             this.darkLabel1.Size = new System.Drawing.Size(48, 19);
             this.darkLabel1.TabIndex = 30;
-            this.darkLabel1.Text = "最新版";
+            this.darkLabel1.Text = "Latest version";
             // 
             // linkLabel1
             // 
