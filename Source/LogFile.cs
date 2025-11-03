@@ -488,7 +488,7 @@ namespace LogViewer
                             }
                         }
 
-                        // 条件符合
+                        // Conditions met
                         if (ll.IsTerms && !string.IsNullOrEmpty(CurSearch.Pattern))
                         {
                             if (string.IsNullOrEmpty(line))
